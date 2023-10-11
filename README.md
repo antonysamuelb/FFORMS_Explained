@@ -19,3 +19,53 @@ Exploration and documentation of my understanding of the FFORMS by Thiyanga S Ta
 * We train each time series across all the L models.
 * Using each of the L models we forecast over the train data horizon and we evaluate the error
 * The labels for the classification model are the models that works best for each time series based on performance over the test data.
+## FFORMS has multiple parts
+### Augmenting Sample with Simulated Time Series
+* This can be done by either generating data from fitted models.
+* We can use the gratis package in R too.
+### Time Series Features.
+#### T
+* Length of the time series
+#### trend 
+* Strength of the trend component in the time series.
+#### seasonality_q
+* Strength of quarterly seasonality component in the time series.
+#### seasonality_m
+* Strength of monthly seasonality component in the time series.
+#### seasonlity_w
+* Strength of weekly seasonality component in the time series.
+#### seasonlity_d
+* Strength of daily seasonality component in the time series.
+#### seasonlity_y
+* Strength of yearly seasonality component in the time series.
+#### Linearity
+* 
+#### curvature
+#### spikiness
+#### e_acf1
+#### stability
+#### lumpiness
+#### entropy
+#### hurst
+#### nonlinearity
+#### alpha
+#### beta
+#### hwalpha
+#### hwbeta
+#### hwgamma
+#### ur_pp
+#### ur_kpss
+#### y_acf1
+#### diff1y_acf1
+#### diff2y_acf1
+#### y_acf5
+#### diff1y_acf5
+#### diff2y_acf5
+#### sediff_acf1
+#### sediff_seacf1
+#### sediff_acf5
+#### seas_pacf
+#### lmres_acf1
+#### y_pacf5
+#### diff1y_pacf5
+#### diff2y_pacf5
