@@ -51,19 +51,25 @@ Exploration and documentation of my understanding of the FFORMS by Thiyanga S Ta
 #### lumpiness
 * The variance of the variance of the windows is lumpiness.
 #### entropy
-* A measure of the forecastability of the Time series. Not sure of this. 
+* A measure of the forecastability of the Time series. *Not sure of this.*
 #### hurst
-* A measure of long term memory of the TS. Not sure of this. 
+* A measure of long-term memory of the TS. *Not sure of this.*
 #### nonlinearity
-* Terasvirta's neural network test for non-linearity. Not sure of this.
+* Terasvirta's neural network test for non-linearity. *Not sure of this.*
 #### alpha
-* Smoothing parameter for Holt's linear trend method.
+* Smoothing parameter for Holt's linear trend method for level.
 #### beta
+* Smoothing parameter for Holt's linear trend method for trend.
 #### hwalpha
+* Smoothing parameter for Holt Winter's linear trend method for level.
 #### hwbeta
+* Smoothing parameter for Holt Winter's linear trend method for trend.
 #### hwgamma
+* Smoothing parameter for Holt Winter's linear trend method for seasonality.
 #### ur_pp
+* Unit root test statistics: Phillips-Perron test. *Not sure of this.*
 #### ur_kpss
+* Unit root test statistics: KPSS test. *Not sure of this.*
 #### y_acf1
 #### diff1y_acf1
 #### diff2y_acf1
